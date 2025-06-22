@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+select, input, textarea, button {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input:not([type="checkbox"]),
+select,
+textarea,
+button {
+  width: 20rem;
+}
+
+select:focus, input:focus, textarea:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 1px #6366f1;
+}
+
+button {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #4f46e5;
+}
+
+.field-list {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+.field-list li {
+  margin-bottom: 0.5rem;
+}
+
+form {
+  margin-top: 1rem;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.05);
+}
+.checkbox-row {
+  display: flex;
+  align-items: left;
+}
